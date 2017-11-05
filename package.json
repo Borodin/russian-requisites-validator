@@ -1,0 +1,25 @@
+{
+  "name": "russian-requisites-validator",
+  "version": "1.0.0",
+  "description": "Validation for Russian requisites: ИНН, КПП, ОГРН",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Borodin/russian-requisites-validator.git"
+  },
+  "keywords": [
+    "inn",
+    "kpp",
+    "ogrn",
+    "ogrnip",
+    "validator",
+    "validation",
+    "russianrequisites",
+    "counterparty"
+  ],
+  "author": "Maxim Borodin <borodinmk@gmail.com> (http://maximborodin.ru)",
+  "license": "ISC"
+}
