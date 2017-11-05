@@ -9,7 +9,7 @@ npm install russian-requisites-validator
 ```
 
 ## Применение
-```
+```js
 var requisitesValidator = require('russian-requisites-validator');
 
 
