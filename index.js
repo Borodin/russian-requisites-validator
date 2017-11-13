@@ -1,6 +1,7 @@
 var Validator = {
   /* ИНН */
   inn: function(inn){
+    if (typeof inn != "string" || typeof inn != "number") return false;
     inn = inn.toString();
     var check = function(num){
       var n = [3,7,2,4,10,3,5,9,4,6,8,0].slice(-num.length)
@@ -23,6 +24,7 @@ var Validator = {
   
   /* ОГРН,ОГРНИП */
   ogrn: function(ogrn){
+    if (typeof ogrn != "string" || typeof ogrn != "number") return false;
     ogrn = ogrn.toString();
     return (parseInt((ogrn).slice(0,12))%11).toString().slice(-1) === ogrn.slice(-1);
   }
